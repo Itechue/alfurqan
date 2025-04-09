@@ -118,3 +118,10 @@ $('[data-toggle="offcanvas"]').on('click', function () {
 
 
 })(jQuery);
+hello = function (){
+    alert("Coming Soon!!");
+    window.location.href="index.html";
+}
+// JavaScript Document
+helo=document.querySelector(".helloo");
+helo.addEventListener("click",hello);
